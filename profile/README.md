@@ -1,12 +1,14 @@
-## Welcome to the team 🙌
+# Welcome to the team
 
-<!--
+## Architecture
+### Objectif
+<img width="480" alt="theorique" src="https://github.com/user-attachments/assets/1e9959ae-74eb-4409-a1ca-280a9ea99efc" />
 
-**Here are some ideas to get you started:**
+### Actuellement dispo sur le serveur publique 
+<img width="480" alt="actuelle" src="https://github.com/user-attachments/assets/617f02be-a7eb-41a5-b27b-6935eb71a9b0" />
 
-🙋‍♀️ A short introduction - what is your organization all about?
-👀 Contribution guidelines - how do team members dive in?
-👩‍💻 Useful resources - where do you keep your docs? Is there anything else the team should know?
-🍪 Fun facts - what is your team's favorite snack?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### Architecture Backend
+
+<a href="https://github.com/h2optimize-end-of-study-project-hetic/backend">Repo Backend</a>
+
+<img width="900" alt="backend" src="https://github.com/user-attachments/assets/99f0c125-91b2-4349-9c5e-1e5bc01cb28d" />
