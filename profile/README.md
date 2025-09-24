@@ -1,14 +1,41 @@
-# Welcome to the team
+# H2Optimize
 
 ## Architecture
-### Objectif
-<img width="480" alt="theorique" src="https://github.com/user-attachments/assets/1e9959ae-74eb-4409-a1ca-280a9ea99efc" />
 
-### Actuellement dispo sur le serveur publique 
-<img width="480" alt="actuelle" src="https://github.com/user-attachments/assets/617f02be-a7eb-41a5-b27b-6935eb71a9b0" />
+Nous avons mis en place une architecture hybride, en procédant à un découpage de l’application en services indépendants, chacun ayant un rôle spécifique :
+- DB : persistance des données.
+- Telegraf : connecteur, agissant comme un intermédiaire entre le broker MQTT et la base de données TimescaleDB.
+- Frontend : interface utilisateur développée en React.
+- Backend : gestion de la logique métier via une API REST avec FastAPI.
+- Deploy : utilitaires pour le déploiement
+  
+## Organisation du projet
 
-### Architecture Backend
+- Organisation : https://github.com/h2optimize-end-of-study-project-hetic
+  - Frontend : https://github.com/h2optimize-end-of-study-project-hetic/frontend/tree/main
+  - Backend : https://github.com/h2optimize-end-of-study-project-hetic/backend/tree/main
+  - Database : https://github.com/h2optimize-end-of-study-project-hetic/database
+  - Mqtt-connector : https://github.com/h2optimize-end-of-study-project-hetic/mqtt_connector
+  - Deployement :  https://github.com/h2optimize-end-of-study-project-hetic/deployement
 
-<a href="https://github.com/h2optimize-end-of-study-project-hetic/backend">Repo Backend</a>
+## Membres
 
-<img width="900" alt="backend" src="https://github.com/user-attachments/assets/99f0c125-91b2-4349-9c5e-1e5bc01cb28d" />
+- BERNARD Anne-Flore : QA - Full-Stack
+- RENEVIER Joachim : DevOps - Back-End
+- LIN Chrisline : Design UI/UX - Full-Stack
+- MACHEFAUX Valentin : Data - Back-End
+- AVALLE Sylvain
+
+Organisations / interactions des services
+
+<img width="1714" height="1084" alt="image-20250808-132153" src="https://github.com/user-attachments/assets/1040e040-6e5d-4029-b868-b4b3cfc34292" />
+
+
+Services deployées
+
+<img width="1568" height="1080" alt="Sans-titre-2025-08-06-1044" src="https://github.com/user-attachments/assets/2d33aec0-84fa-4cfd-8368-0413ba496690" />
+
+
+
+
+
